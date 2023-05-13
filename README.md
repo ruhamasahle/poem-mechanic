@@ -10,16 +10,6 @@ Implementation
 
 The solution principally consists of OpenAI’s API to use GPT-3 to issue a prompt and receive text completions and Notion’s API to write to a database. The responses from GPT come in one long array and need to be parsed and separated so they can be entered as distinct entries to the database. 
 
-The file runs once a day to gather 10 words, scheduled with using cron expressions.
-
-
-First Light: first successful response from OpenAI after many errors
-‍
-
-
-Response cleaned by separating words, now it is ready for Notion's API
-‍
-
 
 Entry added to a Notion DB
 Additionally, as a three.js enthusiast, I took this project as an opportunity to implement a front-facing facet by creating a quirky landing page with the help of a tutorial. As someone who wants to transition into creative development, It was thrilling to finally create a relatively complex animation that introduced me to some boilerplate code for Three.js projects and principal understandings about how it differs (for instance being render based and not event based). The construction of the page left me wide-eyed about the endless animation possibilities I can toy around with as I continue working on three.js projects.
